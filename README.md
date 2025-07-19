@@ -2,8 +2,8 @@
 Projeto desenvolvido durante o curso Full Stack da Rocketseat, com foco na utilização do css grid.
 
 📸 Preview
-![Preview do Projeto](./assets/print/print1.jpeg.png)
-![Preview do Projeto](./assets/print/print2.jpeg.png)
+![Preview do Projeto](./assets/print/print1.jpeg)
+![Preview do Projeto](./assets/print/print2.jpeg)
 
 🚀 Tecnologias
 HTML5 + CSS3 (Grid e Flexbox)
