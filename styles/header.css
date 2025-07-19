@@ -1,6 +1,7 @@
 #primary {
   padding-block: 20px;
-
+  font-weight: 700;
+  
   div {
     display: flex;
     align-items: center;

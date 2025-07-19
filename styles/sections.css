@@ -2,7 +2,7 @@ section header {
   border-top: 1px solid var(--stroke-color);
   padding-block: 12px 24px;
   font: var(--text-span);
-
+  color: var(--text-color-secondary);
   a {
     justify-self: end;
     align-items: center;
@@ -20,6 +20,7 @@ section header {
 }
 
 #featured {
+  grid-area: featured;
   img {
     height: 100%;
     object-fit: cover;
@@ -53,12 +54,12 @@ section header {
 }
 
 #weekly {
+  grid-area: weekly;
   & > div {
     grid-template-columns: repeat(4, 292px);
   }
 
   header {
-    color: var(--text-color-secondary);
     font-weight: 600;
   }
 
@@ -80,22 +81,46 @@ section header {
       font-weight: 800;
     }
   }
+}
 
-  /* margin-top: 80px;
-
+#ai {
+  grid-area: ai;
   header {
-    display: flex;
-    justify-content: space-between;
-    border-top: 1px solid var(--stroke-color);
-    padding-top: 12px;
+    align-items: center;
+  }
+  p {
+    color: var(--text-color-secondary);
+  }
+  img {
+    width: 176px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
   }
 
-  #weeklyfigures {
-    padding-block: 24px;
-    img {
-      height: 160px;
-      width: 292px;
-      object-fit: cov;
-    }
-  } */
+  h3 {
+    margin-block: 8px 4px;
+  }
+}
+
+aside {
+  grid-area: aside;
+}
+
+#more {
+  margin-top: 32px;
+
+  .black {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 140%;
+    color: #F1F5F9;
+  }
+
+  img {
+    width: 72px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+  }
 }
