@@ -19,26 +19,6 @@ Tipografia acessível
 
 Interface baseada no design do Figma
 
-▶️ Como usar
-bash
-Copiar
-Editar
-
-# Clone o repositório
-
-git clone https://github.com/seu-usuario/portal-de-noticias.git
-
-# Acesse a pasta do projeto
-
-cd portal-de-noticias
-
-# Instale as dependências (se houver)
-
-npm install
-
-# Inicie o projeto
-
-npm start
 📄 Licença
 Projeto com fins educacionais – Rocketseat Full Stack 🚀
 Sinta-se livre para usar e modificar!
