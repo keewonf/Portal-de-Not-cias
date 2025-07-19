@@ -57,6 +57,11 @@ section header {
     grid-template-columns: repeat(4, 292px);
   }
 
+  header {
+    color: var(--text-color-secondary);
+    font-weight: 600;
+  }
+
   img {
     height: 160px;
   }
